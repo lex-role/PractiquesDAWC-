@@ -30,9 +30,10 @@ Console.WriteLine ("Programes de proves");
 int control = 0;
 int num1 = 0;
 int num2 = 0;
-//inicia un do while mentres control sigui inferior a 2
-do{
-     do{
+
+do{ //inicia un do while mentres control sigui inferior a 2 per tota la app
+     do{  //inicia la petició de numeros
+     
         Console.Write("Introdueix un numero: ");
         try {
             num1 = int.Parse(Console.ReadLine());
