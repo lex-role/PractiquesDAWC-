@@ -1,0 +1,15 @@
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\Programació.csproj.AssemblyReference.cache
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\Programació.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\Programació.AssemblyInfoInputs.cache
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\Programació.AssemblyInfo.cs
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\Programació.csproj.CoreCompileInputs.cache
+D:\Users\Administrador\Documents\CS-DAW\Programació\bin\Debug\net6.0\Programació.exe
+D:\Users\Administrador\Documents\CS-DAW\Programació\bin\Debug\net6.0\Programació.deps.json
+D:\Users\Administrador\Documents\CS-DAW\Programació\bin\Debug\net6.0\Programació.runtimeconfig.json
+D:\Users\Administrador\Documents\CS-DAW\Programació\bin\Debug\net6.0\Programació.dll
+D:\Users\Administrador\Documents\CS-DAW\Programació\bin\Debug\net6.0\Programació.pdb
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\Programació.dll
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\refint\Programació.dll
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\Programació.pdb
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\Programació.genruntimeconfig.cache
+D:\Users\Administrador\Documents\CS-DAW\Programació\obj\Debug\net6.0\ref\Programació.dll
