@@ -27,11 +27,12 @@ Console.WriteLine ("Programes de proves");
 // Console.WriteLine("Resta: "+(b-a));
 // Console.WriteLine(a*b);
 // Console.WriteLine(b/a);
-int control = 0;
-int num1 = 0;
-int num2 = 0;
 
-do{ //inicia un do while mentres control sigui inferior a 2 per tota la app
+int control = 0; //declaració de la primera variable de control de flux
+int num1 = 0; // variable de primer número
+int num2 = 0; // variable de segon número
+
+do{ //inicia un do while mentres control sigui inferior a 2 per a tota la app
      do{  //inicia la petició de numeros
      
         Console.Write("Introdueix un numero: ");
@@ -40,8 +41,8 @@ do{ //inicia un do while mentres control sigui inferior a 2 per tota la app
             control++;
         }catch{
             Console.WriteLine("Introdueix un número valid!");
-        }
-    }while(control == 0);
+        } //demana introduir un número per consola i comprova que és pugui fer servir com a int, sinó retorna un error i torna a demanar el número
+    }while(control == 0);//manté la petició fins que és correcte l'entrada
     do{
         Console.Write("Intodueix un segón numero: ");
         try {
@@ -49,14 +50,14 @@ do{ //inicia un do while mentres control sigui inferior a 2 per tota la app
             control++;
         }catch{
             Console.WriteLine("Introdueix un número valid!"); 
-        }
-    }while(control==1);
+        }//demana introduir un número per consola i comprova que és pugui fer servir com a int, sinó retorna un error i torna a demanar el número
+    }while(control==1);//manté la petició fins que és correcte l'entrada
     
-    int control2 = 0;
+    int control2 = 0; //declaració de la segona variable de control de flux
 
-    do{        
+    do{  //sol·licita la operació a fer amb les dades entrades, també dona la opció de sortir una vegada ha respost alguna cosa no permesa com a operació      
         Console.Write("Quina operació vols fer amb ells (Suma, Resta,  Mutiplicació o Divisió?");
-        string oper = Console.ReadLine().ToLower();
+        string oper = Console.ReadLine().ToLower(); //l'entrada es convertida a minusculas
         control++;
 
         switch (oper){
@@ -73,7 +74,7 @@ do{ //inicia un do while mentres control sigui inferior a 2 per tota la app
                 control2++;
                 break;
             case "divisió":
-                Console.WriteLine("Divisió: "+ (Convert.ToDouble(num1)/Convert.ToDouble(num2)));
+                Console.WriteLine("Divisió: "+ (Convert.ToDouble(num1)/Convert.ToDouble(num2))); //dona el resultat en decimals si n'hi ha
                 control2++;
                 break;
             case "finalitzar":
@@ -89,7 +90,7 @@ do{ //inicia un do while mentres control sigui inferior a 2 per tota la app
 
 }while (control == 2);
 
-Console.WriteLine("Gràcies per fer servir aquesta app!");
+Console.WriteLine("Gràcies per fer servir aquesta app!"); //final de la app
 
 
 
