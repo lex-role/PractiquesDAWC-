@@ -44,7 +44,7 @@ do{ //inicia un do while mentres control sigui inferior a 2 per a tota la app
         } //demana introduir un número per consola i comprova que és pugui fer servir com a int, sinó retorna un error i torna a demanar el número
     }while(control == 0);//manté la petició fins que és correcte l'entrada
     do{
-        Console.Write("Intodueix un segón numero: ");
+        Console.Write("Intodueix un segón número: ");
         try {
             num2 = int.Parse(Console.ReadLine());
             control++;
@@ -56,7 +56,7 @@ do{ //inicia un do while mentres control sigui inferior a 2 per a tota la app
     int control2 = 0; //declaració de la segona variable de control de flux
 
     do{  //sol·licita la operació a fer amb les dades entrades, també dona la opció de sortir una vegada ha respost alguna cosa no permesa com a operació      
-        Console.Write("Quina operació vols fer amb ells (Suma, Resta,  Mutiplicació o Divisió?");
+        Console.Write("Quina operació vols fer amb ells (Suma, Resta, Mutiplicació o Divisió?");
         string oper = Console.ReadLine().ToLower(); //l'entrada es convertida a minusculas
         control++;
 
